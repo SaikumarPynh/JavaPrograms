@@ -3,7 +3,8 @@ package com.example.lab3prog;
 public class Book {
 	private long id;
 	private String author,title;
-	
+	private int publicationyear;
+
 	public long getId() {
 		return id;
 	}
@@ -28,5 +29,4 @@ public class Book {
 	public void setPublicationyear(int publicationyear) {
 		this.publicationyear = publicationyear;
 	}
-	private int publicationyear;
 }
