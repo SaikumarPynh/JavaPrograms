@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/books")
 public class BookController {
     private final List<Book> books = new ArrayList<>();
-
+//getting details 
     @GetMapping("/GetDetails")
     public List<Book> getAllBooks() {
         return books;
@@ -20,6 +20,7 @@ public class BookController {
     
 
     @PostMapping("/PostDetails")
+//posting details
     public Book addBook(@RequestBody Book book) {
         books.add(book);
         return book;
