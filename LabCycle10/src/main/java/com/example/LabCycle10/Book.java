@@ -30,3 +30,4 @@ public class Book {
 		this.publicationYear = publicationYear;
 	}
 }
+//kubectl apply -f kuber.yml    minikube service myapp-service    minkube dashboard
