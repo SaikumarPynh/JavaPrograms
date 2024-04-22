@@ -30,4 +30,4 @@ public class Book {
 		this.publicationYear = publicationYear;
 	}
 }
-//kubectl apply -f kuber.yml    minikube service myapp-service    minkube dashboard
+// minikube start ,minikube status , eval $(minikube docker-env) kubectl apply -f kuber.yml    minikube service myapp-service    minkube dashboard
